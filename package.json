@@ -1,0 +1,26 @@
+{
+  "name": "react-native-radio-stream",
+  "version": "0.1.0",
+  "description": "Provides a player to play stream urls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheussll/react-native-radio-stream.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "radio",
+    "stream",
+    "audio"
+  ],
+  "author": "Matheus Luz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheussll/react-native-radio-stream/issues"
+  },
+  "homepage": "https://github.com/matheussll/react-native-radio-stream#readme"
+}

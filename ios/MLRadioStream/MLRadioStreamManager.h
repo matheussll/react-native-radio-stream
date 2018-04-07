@@ -10,6 +10,6 @@
 #import <React/RCTBridgeModule.h>
 #import "MLRadioStream-Swift.h"
 
-@interface MLRadioStreamManager : NSObject //<RCTBridgeModule>
+@interface MLRadioStreamManager : NSObject <RCTBridgeModule>
 + (MLRadioStream *)sharedPlayer;
 @end

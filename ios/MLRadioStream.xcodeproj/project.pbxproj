@@ -28,6 +28,7 @@
 		409BDE0B20783DD00032F513 /* MLRadioStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLRadioStream.swift; sourceTree = "<group>"; };
 		409BDE1220783DF00032F513 /* MLRadioStreamManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLRadioStreamManager.h; sourceTree = "<group>"; };
 		409BDE1320783DF00032F513 /* MLRadioStreamManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLRadioStreamManager.m; sourceTree = "<group>"; };
+		40CB38312078446B0088853D /* MLRadioStream-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLRadioStream-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		409BDE0A20783DD00032F513 /* MLRadioStream */ = {
 			isa = PBXGroup;
 			children = (
+				40CB38312078446B0088853D /* MLRadioStream-Bridging-Header.h */,
 				409BDE0B20783DD00032F513 /* MLRadioStream.swift */,
 				409BDE1220783DF00032F513 /* MLRadioStreamManager.h */,
 				409BDE1320783DF00032F513 /* MLRadioStreamManager.m */,
@@ -261,6 +263,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MLRadioStream/MLRadioStream-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -281,6 +284,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MLRadioStream/MLRadioStream-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

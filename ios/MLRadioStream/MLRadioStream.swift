@@ -35,18 +35,18 @@ import MediaPlayer
         }
     }
     
-    func play(streamUrl: String) {
+   @objc func play(streamUrl: String) {
         createPlayer(streamUrl: streamUrl)
         isPlaying = true
         player?.play()
     }
     
-    func stop() {
+  @objc func stop() {
         isPlaying = false
         player?.pause()
     }
     
-    func setupRadio(radioTitle: String, radioArtist: String) {
+   @objc func setupRadio(radioTitle: String, radioArtist: String) {
         let songInfo = [
             MPMediaItemPropertyTitle: radioTitle,
             MPMediaItemPropertyArtist: radioArtist,
@@ -55,7 +55,7 @@ import MediaPlayer
     }
     
     
-    func setupRemoteTransportControls() {
+    private func setupRemoteTransportControls() {
         // Get the shared MPRemoteCommandCenter
         let commandCenter = MPRemoteCommandCenter.shared()
         
